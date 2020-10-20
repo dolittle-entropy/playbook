@@ -1,0 +1,16 @@
+## Based on https://www.kunalnagar.in/blog/setup-docker-jekyll-dev-environment/
+
+version: '3.6'
+services:
+  app:
+    container_name: dolittle-playbook-environment
+    image: dolittle-playbook:development
+    volumes:
+      - ./playbook/:/var/www/html
+    working_dir: /var/www/html
+    ports:
+      - 4000:4000
+    restart: always
+    command: >
+      sh -c "bundle install &&
+             bundle exec jekyll serve --host 0.0.0.0"¯
