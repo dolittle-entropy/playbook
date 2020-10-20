@@ -47,16 +47,17 @@ For more complex applications, unit tests also ensure:
 
 ## Specific Guidance
 Languages and Platforms provide their own unit test tools and frameworks. In CD, we prefer:
-- .NET / .Net Core - XUnit: https://xunit.net/
-- Java: https://junit.org/junit5/
-- Go: https://golang.org/pkg/testing/
-- JavaScript / Node: https://mochajs.org/
+- .NET / .Net Core - [XUnit](https://xunit.net/)
+- Java: [JUnit](https://junit.org/junit5/)
+- Go: [GoLang Testing](https://golang.org/pkg/testing/)
+- JavaScript / Node: [Mocha](https://mochajs.org/)
+  
 >TBD
 		
 ## Resources
-- .NET Tutorial on xUnit: https://xunit.net/docs/getting-started/netfx/visual-studio
-- Java Tutorial: http://tutorials.jenkov.com/java-unit-testing/index.html
-- Unit Testing Spark: http://www.jesse-anderson.com/2016/04/unit-testing-spark-with-java/
-- Book The Art of Unit Testing: With Examples in .NET - by Roy Osherove: https://www.goodreads.com/book/show/6487349-the-art-of-unit-testing
+- [.NET Tutorial on xUnit](https://xunit.net/docs/getting-started/netfx/visual-studio)
+- [Java Tutorial](http://tutorials.jenkov.com/java-unit-testing/index.html)
+- [Unit Testing Spark](http://www.jesse-anderson.com/2016/04/unit-testing-spark-with-java/)
+- Book [The Art of Unit Testing: With Examples in .NET](https://www.goodreads.com/book/show/6487349-the-art-of-unit-testing) - by Roy Osherove 
 
 >TBD Typescript / JS Testing tutorials

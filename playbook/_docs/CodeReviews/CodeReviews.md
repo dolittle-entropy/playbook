@@ -78,12 +78,6 @@ Every code review should include the following general code review checklist ite
 1.  [ ] Is the deployment of the code scripted such that it is repeatable and ideally declarative?
 1.  [ ] Is the PR a relatively small change? Optimal PR sizes for code reviews are typically described in terms like embodying less than three days of work or having [200 or fewer changed lines of code](https://smallbusinessprogramming.com/optimal-pull-request-size/). If not, suggest smaller user stories or more frequent PRs in the future to reduce the amount of code being reviewed in one PR.
 
-## Language Specific Guidance
-
--   [C#](./CSharp.md)
--   [JavaScript](./JavaScript.md)
--   [TypeScript](./TypeScript.md)
-
 ## Resources
 
 -   [Best Kept Secrets of Peer Code Review](https://smartbear.com/SmartBear/media/pdfs/best-kept-secrets-of-peer-code-review.pdf)

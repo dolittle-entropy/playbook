@@ -13,10 +13,12 @@ There are many different options when working with Source Control. In CD we use 
 * Improve traceability of features and fixes through a clean commit history
 
 ## Evidence and Measures
-- [ ] The master branches are locked and merges are done through PRs which follow the guidelines outlined in the [Code Reviews section](./CodeReviews/CodeReviews.md)
-- [ ] The commit history is consistent and the commit messages provide useful information about the *WHAT* and *WHY* (instead of the *HOW*) of the change. See [Chris Beans - Writing Git Commit Messages](https://chris.beams.io/posts/git-commit/)
+- [ ] The master branches are locked and merges are done through PRs which follow the guidelines outlined in the Code Reviews section
+- [ ] The commit history is consistent and the commit messages provide useful information about the WHAT and WHY (instead of the HOW) of the change. 
 - [ ] All public repositories follow the OSS guidelines highlighted below
 - [ ] No secrets are published or part of the public commit history
+
+Familiarize youself with the blog post [Writing Git Commit Messages](https://chris.beams.io/posts/git-commit/) by Chris Beans
 
 ## General Guidance
 Consistency is crucial, therefore the team has to agree on their approach before they start to code. At a minimum, the team should do the following:
@@ -25,7 +27,7 @@ Consistency is crucial, therefore the team has to agree on their approach before
 * lock the default branch and merge using PRs
 * agree on how to name branches (e.g. `user/feature_name`)
 * for public repositories:
-  * default branch contains the [LICENSE](./Templates/LICENSE), [README.md](./Templates/README.md) and [CONTRIBUTING.md](./Templates/CONTRIBUTING.md) files
+  * default branch contains the [LICENSE](../Templates/LICENSE), [README.md](../Templates/README.md) and [CONTRIBUTING.md](../Templates/CONTRIBUTING.md) files
 
 ## Resources
 * [Git](https://git-scm.com/) `--local-branching-on-the-cheap`
