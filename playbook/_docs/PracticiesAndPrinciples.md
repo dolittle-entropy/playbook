@@ -1,3 +1,9 @@
+---
+layout: default
+title: Practices and Principles
+nav_order: 3
+has_children: true
+---
 # Engineering Practices And Principles
 
 While working on the project we try to stick with best practices in architecture for development and design that help us to produce better quality code and make the overall process more effective.

@@ -1,8 +1,15 @@
+---
+layout: default
+title: C-Sharp
+nav_order: 1
+has_children: false
+parent: Code Reviews
+---
 # C# Code Reviews
 
 ## C# Style Guide
 
-CD developers follow Dolittles [C# Coding Conventions](https://dolittle.io/contributing/guidelines/csharp_coding_styles/) and, where applicable, Microsoft's [Secure Coding Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines).
+CD developers follow **Dolittle**s [C# Coding Conventions](https://dolittle.io/contributing/guidelines/csharp_coding_styles/) and, where applicable, Microsoft's [Secure Coding Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines).
 
 ## Linters
 

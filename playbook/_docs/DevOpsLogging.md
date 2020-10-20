@@ -1,3 +1,10 @@
+---
+layout: default
+title: Logging and Monitoring
+nav_order: 1
+has_children: false
+parent: DevOps
+---
 # Logging and Monitoring
 
 Services that CD develop use logging and monitoring for understanding service performance, get insight into complex workflows and a tool for debugging service failures.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Source Control Details
+nav_order: 1
+has_children: false
+parent: Source Control
+---
 # Git - The basics
 [Install Git](https://git-scm.com/downloads) and follow the [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 

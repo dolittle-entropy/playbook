@@ -1,3 +1,10 @@
+---
+layout: default
+title: Definition of Done
+nav_order: 1
+has_children: false
+parent: Practices and Principles
+---
 # Use Done-Done checklist
 
 Software Engineering is not just implementing functionality and writing code, but also other associated tasks and activities to ensure all requirements are fulfilled when you finished your work. This is closely relevant to `done-done` term, which stands for a simple list of activities like writing code/unit tests/release notes/design docs and so on that adds verifiable/demonstrable value to the product.

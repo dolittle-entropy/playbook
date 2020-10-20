@@ -1,4 +1,11 @@
-## Secrets Management
+---
+layout: default
+title: Managing Secrets
+nav_order: 5
+has_children: false
+parent: Source Control
+---
+## Managing Secrets
 
 Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if 
 made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS 

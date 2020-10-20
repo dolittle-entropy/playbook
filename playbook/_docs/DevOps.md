@@ -1,7 +1,7 @@
 ---
 layout: default
-title: UI Components
-nav_order: 1
+title: DevOps
+nav_order: 3
 has_children: true
 ---
-# Yo momma!
+# DevOps

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Retrospectives
+nav_order: 4
+has_children: false
+parent: DevOps
+---
 # Retrospectives
 
 Development teams working on **Customer Delivery** projects will conduct [agile retrospectives](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) for each iteration and project milestone.

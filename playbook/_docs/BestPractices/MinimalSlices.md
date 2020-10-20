@@ -1,3 +1,10 @@
+---
+layout: default
+title: Minimal Slices
+nav_order: 3
+has_children: false
+parent: Practices and Principles
+---
 # Deliver using Minimal Valuable Slices
 
 ## Always deliver your work using minimal valuable slices:

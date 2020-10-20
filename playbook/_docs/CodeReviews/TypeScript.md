@@ -1,3 +1,10 @@
+---
+layout: default
+title: TypeScript
+nav_order: 2
+has_children: false
+parent: Code Reviews
+---
 # TypeScript Code Reviews
 
 ## Style Guide

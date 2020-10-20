@@ -1,3 +1,10 @@
+---
+layout: default
+title: Minimalism Rules
+nav_order: 2
+has_children: false
+parent: Practices and Principles
+---
 # Follow Minimalism Rules 
 
 ## (http://minifesto.org/)

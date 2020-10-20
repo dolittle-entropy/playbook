@@ -17,7 +17,7 @@ This is the playbook. You are invited to contribute via standard git pull reques
 >This playbook was originally copied from Microsoft's CSE Code-With Customer/Partner Engineering Playbook. 
 
 ## The basics
-* [Source Control](./SourceControl.md)
+* [Source Control](../SourceControl.markdown)
 * [Unit Testing](./UnitTesting.md)
 * [Continuous Integration / Continuos Delivery](./BestPractices/CiCd.md)
 * [Code Reviews](./CodeReviews/CodeReviews.md)

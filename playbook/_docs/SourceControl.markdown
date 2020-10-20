@@ -1,3 +1,9 @@
+---
+layout: default
+title: Source Control
+nav_order: 2
+has_children: true
+---
 # Source Control
 There are many different options when working with Source Control. In CD we use [Azure DevOps](https://dev.azure.com) for private repositories and [GitHub](https://github.com/) for public repositories.
 

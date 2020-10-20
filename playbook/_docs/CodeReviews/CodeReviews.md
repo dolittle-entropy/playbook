@@ -1,3 +1,9 @@
+---
+layout: default
+title: Code Reviews
+nav_order: 3
+has_children: true
+---
 # Code Reviews
 
 Developers working on **Dolittle** projects will conduct peer code reviews on every pull request (or check-in to a shared branch).
