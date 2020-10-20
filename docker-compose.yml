@@ -4,6 +4,9 @@ version: '3.6'
 services:
   app:
     container_name: dolittle-playbook-environment
+    build:
+      context: ./playbook/
+      dockerfile: ../Dockerfile
     image: dolittle-playbook:development
     volumes:
       - ./playbook/:/var/www/html
@@ -13,4 +16,4 @@ services:
     restart: always
     command: >
       sh -c "bundle install &&
-             bundle exec jekyll serve --host 0.0.0.0"¯
+             bundle exec jekyll serve --host 0.0.0.0"
