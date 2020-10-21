@@ -13,7 +13,8 @@ services:
     working_dir: /var/www/html
     ports:
       - 4000:4000
+      - 35729:35729
     restart: always
     command: >
       sh -c "bundle install &&
-             bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+             bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload --incremental"
