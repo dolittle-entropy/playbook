@@ -46,13 +46,15 @@ More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 - [ ] Secrets should never be part of the solution, but placed in separate, secure locations.
 - [ ] Do not write logon systems, use existing services for that.
 - [ ] Do not store any personal data without purpose (and minimise that).
-- [ ] Encryption for data in transit (and if necessary at rest) and password hashing.
+- [ ] Encrypt data in transit (and if necessary at rest) and avoid passwords
+- [ ] If you must store password-related data you should salt a *slow* hashing algorithm (e.g. use [PKBDF2](https://en.wikipedia.org/wiki/PBKDF2) [DotNET implmentation](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.rfc2898derivebytes?redirectedfrom=MSDN&view=netcore-3.1)) - but if at all possible: AVOID!
 
 ## Observability
 
-- [ ] Significant business and functional events are tracked and related metrics collected.
-- [ ] Application faults and errors are logged.
-- [ ] Health of the system is monitored.
+- [ ] Track significant business and functional events through events, not logs
+- [ ] Application faults and errors are logged
+- [ ] Things that require no attention by real people does not belong in warning, error or fatal -logs
+- [ ] Monitor the health of the system
 - [ ] The client and server side observability data can be differentiated.
 - [ ] Logging configuration can be modified without code changes (eg: verbose mode).
 - [ ] [Incoming tracing context](observability/correlation-id.md) is propagated to allow for production issue debugging purposes.
@@ -71,25 +73,27 @@ More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 ## Design Reviews
 
 - [ ] Process for conducting design reviews is included in the [Working Agreement](/agile-development/team-agreements/working-agreements/readme.md)
-- [ ] Design reviews for each major component of the solution are carried out and documented, including alternatives.
-- [ ] Stories and/or PRs link to the design document.
-- [ ] Each user story includes a task for design review by default, which is assigned or removed during sprint planning.
-- [ ] Project advisors are invited to design reviews or asked to give feedback to the design decisions captured in documentation.
-- [ ] Discover all the reviews that the customer's processes require and plan for them.
+- [ ] Carry out and document design reviews for each major component of the solution, including alternatives
+- [ ] Stories and/or pull-requests should link to the design document
+- [ ] Each user story should include a task for design review by default, assign to or remove it during sprint planning.
+- [ ] Invite project advisors to design reviews and ask for feedback to the design decisions captured in documentation.
+- [ ] Identify all the reviews and acceptances that the customer's processes require and plan for them
 
 ## Code Reviews
 
-- [ ] Clear agreement in the team as to function of code reviews.
-- [ ] Code review checklist or established process.
-- [ ] A minimum number of reviewers (usually 2) for a PR merge is enforced by policy.
+- [ ] Get a clear agreement in the team as to function of code reviews.
+- [ ] Establish a code review checklist or established process.
+- [ ] If there is a minimum number of reviewers for a pull-request merge it should be enforced by the toolset
 - [ ] Linters/Code Analyzers, unit tests and successful builds for PR merges are set up.
-- [ ] Process to enforce a quick review turnaround.
+- [ ] Encourage, emphasise and repeat the need for a quick review turnaround
 
 More details on [Code Reviews](code-reviews/README.md)
 
 ## Retrospectives
 
-- [ ] Set time for retrospectives each week/at the end of each sprint.
+- [ ] Set aside time for retrospectives at a regular cadence, preferrably no more than 2 weeks
+- [ ] Start each retrospective with the "Prime Directive" and repeat it regularly
+- [ ] Avoid blame and finger-pointing - focus on learnings and the way forward
 - [ ] 1-3 proposed experiments to be tried each week/sprint to improve the process.
 - [ ] Experiments have owners and are added to project backlog.
 - [ ] Longer retrospective for Milestones and project completion.
@@ -98,7 +102,7 @@ More details on [Retrospectives](agile-development/retrospectives/readme.md)
 
 ## Engineering Feedback
 
-- [ ] Submit business and technical blockers that prevent project success
+- [ ] Register business- and technical blockers that prevent project success
 - [ ] Add suggestions for improvements to leveraged services and components
 - [ ] Ensure feedback is detailed and repeatable
 
