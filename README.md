@@ -1,15 +1,23 @@
 # Dolittle Playbook Contributions
-Welcome to our Engineering Playbook which is a collection of our practices and experiences 
-collectively gathered into a form. 
+Welcome to our Engineering Playbook which is a collection of our practices and experiences
+collectively gathered into a form.
 
 This playbook is meant as a guide for customer engagements, and serves as a checklist for
-interacting in our projects. 
+interacting in our projects.
 
 ## How do I contribute?
 
-### Set up Jekyll 
-You can edit the markdown pages directly, but to get the full effect of how the pages will look on `GitHub Pages` you should have a local 
-instance of `Jekyll` installed and running. 
+You can contribute by either running the solution in the local docker environment, ot you can set up a jekyll environment yourself.
+
+### Run the local development container to work with Jekyll
+From the root of the repository run `docker-compose up`.
+
+This will run Jekyll in a docker image, and run it with the local files as context. The first time this is run you will have to build the container. On subsequent runs this will be cached.
+
+
+### Set up local Jekyll environment
+You can edit the markdown pages directly, but to get the full effect of how the pages will look on `GitHub Pages` you should have a local
+instance of `Jekyll` installed and running.
 
 #### Windows Environment
 - Make sure you're on at least `Windows 10 v1909`
@@ -17,10 +25,10 @@ instance of `Jekyll` installed and running.
 - Installed Ubuntu 18.04 LTS (you can find that in the store)
 
 #### Jekyll
-home> It is **very important** that you install `version 3.8.5` of Jekyll. 
+home> It is **very important** that you install `version 3.8.5` of Jekyll.
 Newer versions will not work in GitHub Pages!
 
-First, update your ubuntu installation with the latest patches/packages: 
+First, update your ubuntu installation with the latest patches/packages:
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
@@ -30,7 +38,7 @@ Next, we install some dependencies:
 sudo apt-get install -y ruby-full build-essential zlib1g-dev
 ```
 
-Once these are installed, the next step is to set up environment variables to your `~/.bashrc` file: 
+Once these are installed, the next step is to set up environment variables to your `~/.bashrc` file:
 
 ```bash
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
@@ -43,7 +51,7 @@ The next step is to install `Bundler`:
 ```bash
 gem install bundler
 ```
-**Finally** we can install Jekyll. Remember to specify the version! 
+**Finally** we can install Jekyll. Remember to specify the version!
 ```bash
 gem install jekyll --version 3.8.5
 ```
@@ -55,5 +63,5 @@ and type
 bundler exec jekyll serve
 ```
 And now you're all done, you can open the folder in your editor of choice and have updates to the documents applied as you save. Remember
-to refresh the browser to have a peek! 
+to refresh the browser to have a peek!
 
