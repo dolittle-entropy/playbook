@@ -69,7 +69,7 @@ D---E---F-----------G---H master
 Create a PR topic --> master in VSTS and approve using the squash merge option
 ```
 
-# Write good commit comments
+# Write good commit messages
 In a nutshell, if you use `git commit -m` then you're most likely not write the best commit messages ;-)
 
 See [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) for the reasoning and [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for more context. 
