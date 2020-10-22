@@ -11,11 +11,10 @@ This checklist helps to ensure that our projects meet our Engineering Fundamenta
 
 ## Source Control
 
-- [ ] The main branch is locked.
-- [ ] Merges are done through PRs.
-- [ ] PRs reference related work items.
-- [ ] Commit history is consistent and commit messages are informative (what, why).
-- [ ] Secrets are not part of the commit history or made public. 
+- [ ] A clear responsibility for the main branch has been established in the team (we recommend only merging through pull-requests)
+- [ ] There is a clear concensus on how to write commit-messages (see our recommendations under [Source Control](../../SourceControlDetails#write-good-commit-messages) for more details)
+- [ ] Commit history is consistent and commit messages are informative.
+- [ ] Secrets are never part of the commit history or made public.
 - [ ] Public repositories follow the [OSS guidelines](source-control/readme.md#creating-a-new-repository), see `Required files in default branch for public repositories`.
 
 More details on [Source Control](source-control/readme.md)
@@ -23,26 +22,30 @@ More details on [Source Control](source-control/readme.md)
 ## Work Item Tracking
 
 - [ ] All items are tracked in AzDevOps (or similar).
-- [ ] The board is organized (swim lanes, feature tags, technology tags).
+- [ ] Work items should be uniquely identifiable in some way (usually a number or identifier)
+- [ ] Who works on which items should be visualised and obvious to the team.
 
 ## Testing
 
-- [ ] Unit tests cover the majority of all components (>90% if possible).
-- [ ] Integration tests run to test the solution e2e.
+- [ ] Unit tests cover as much of the solution as feasible (>90% if possible).
+- [ ] Bugs are covered by tests when found
+- [ ] Integration tests run to test the solution end-to-end
 
 More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 
-## CI/CD
+## Continuous Integration and Continuous Delivery
 
-- [ ] Project runs CI with automated build and test on each PR.
-- [ ] Project uses CD to manage deployments to a replica environment before PRs are merged.
-- [ ] Main branch is always shippable.
+- [ ] The code is automatically built and tested when it is comitted (as a part of the pull-request, or on every commit, but at least before it reaches the main-branch)
+- [ ] The resulting artifacts of the automated pipeline should be what goes on the servers, not something from one developer's computer.
+- [ ] The main branch is kept in a shippable state
 
 ## Security - TO DO
 
-- [ ] Access control.
-- [ ] Separation of concerns.
-- [ ] Robust treatment of secrets.
+- [ ] If there is personal or sensitive data in the solution the developers should not be able to access such sensitive production data except in specific cases
+- [ ] Personal data for real persons must never be used for test or developments purposes, unless specific permission is given by those persons.
+- [ ] Secrets should never be part of the solution, but placed in separate, secure locations.
+- [ ] Do not write logon systems, use existing services for that.
+- [ ] Do not store any personal data without purpose (and minimise that).
 - [ ] Encryption for data in transit (and if necessary at rest) and password hashing.
 
 ## Observability
@@ -55,11 +58,14 @@ More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 - [ ] [Incoming tracing context](observability/correlation-id.md) is propagated to allow for production issue debugging purposes.
 - [ ] GDPR compliance is ensured regarding PII (Personally Identifiable Information).
 
-## Agile/Scrum
+## Process
 
-- [ ] Process Lead (fixed/rotating) to run standup daily.
-- [ ] Agile process clearly defined within team.
-- [ ] Tech Lead (+ PO/Others) have responsibility for backlog management and grooming.
+- [ ] Daily stand-ups are usually a good idea. Try to have them early to start the day.
+- [ ] Have someone "lead" the stand-up. This role can rotate if the team wants it.
+- [ ] Focus status-updates on what lies ahead and any obstacles or missing knowledge. Try to make sure the people who are going to do a task has every chance of finishing it.
+- [ ] Identify unclear or tasks that need further information and have them clarified/readied before tackling them
+- [ ] Handle tasks that lead into each other separately - don't fall for the temptation to combine them
+- [ ] Tech Lead (+ product-owner/others) have responsibility for backlog management and grooming.
 - [ ] Working agreement between members of team and customer.
 
 ## Design Reviews
