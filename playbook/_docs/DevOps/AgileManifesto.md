@@ -2,7 +2,7 @@
 layout: default
 title: Agile Manifesto
 parent: DevOps
-nav_order: 1
+nav_order: 3
 has_children: false
 ---
 # The Agile Manifesto

@@ -13,6 +13,7 @@ the Dolittle platform where appropriate, and offer guidance for where it does no
 * Be honest and open about areas where the Dolittle Platform is not a good fit
 * Strive to find workarounds for challenges that aren't met by the current state of the Dolittle platform
 * Be active in reporting back to the R&D team about bugs or missing features that are impeding a smooth delivery
+* Act as mentors and guides on how to leverage EDA to deliver efficient solutions running on a plethora of microservices
 
 ## Isolating areas of a solution that are the perfect fit for Dolittle
 

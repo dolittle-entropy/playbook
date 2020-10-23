@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Logging and Monitoring
-nav_order: 1
+nav_order: 4
 has_children: false
 parent: DevOps
 ---

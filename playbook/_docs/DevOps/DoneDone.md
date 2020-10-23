@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Definition of Done
-nav_order: 1
+nav_order: 2
 has_children: false
-parent: Practices and Principles
+parent: DevOps
 ---
 # Use Done-Done checklist
 
