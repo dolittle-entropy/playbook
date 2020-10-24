@@ -4,10 +4,7 @@ version: '3.6'
 services:
   app:
     container_name: dolittle-playbook-environment
-    build:
-      context: ./playbook/
-      dockerfile: ../Dockerfile
-    image: dolittle-playbook:development
+    image: jekyll/jekyll:3.8.6
     volumes:
       - ./playbook/:/var/www/html
     working_dir: /var/www/html
@@ -16,7 +13,6 @@ services:
       - 35729:35729
     environment:
       - "JEKYLL_ENV=docker"
+      - "JEKYLL_VERSION=3.8.6"
     restart: always
-    command: >
-      sh -c "bundle install &&
-             bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload --incremental --config _config.yml,_config.docker.yml"
+    command: "jekyll serve --force_polling --livereload --incremental --config _config.yml,_config.docker.yml"
