@@ -6,7 +6,7 @@ has_children: true
 ---
 # Dolittle Customer Delivery Engineering Playbook
 
-Someone working in a Customer Delivery project...
+Someone working in a Customer Delivery project ...
 
 * is responsible to their team for their deliveries, but also strives to mentor, coach and lead and learn from them.
 * knows their **playbook** and follows their playbook. They fix their playbook if it is broken, and improve it when they can. If they find a better playbook, they copy it. If somebody could use their playbook, they share it.
