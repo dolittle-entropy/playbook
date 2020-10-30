@@ -15,7 +15,7 @@ making your own version tailored to your needs and preferences.
 ## Sections
 
 The play-book is divided into sections that consider specific themes.
-1. About (this section)
+1. Landing page (this section)
 2. Working in a team
 3. Creating software
 4. Maintaining a running system
