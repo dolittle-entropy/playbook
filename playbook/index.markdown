@@ -32,6 +32,15 @@ and github](add-link-here).
 - how to break up an "epic" into smaller delierables
 - how to work remotely
 - how to identify a product-owner
+- something about not inventing new stuff, use existing stuff instead (only make the core domain)
+- recommended things to use
+  - fluent ui
+  - react?
+  - aurelia
+  - mongo
+  - dapper
+  - fluent validations
+  - node
 
 ## Sections that exist, but need work
 - [The Dolittle Platform](docs/02_Creating_Software/03_The_Dolittle_Platform/index)
