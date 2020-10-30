@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Agile Manifesto
-parent: DevOps
+parent: Maintaining a Running System
 nav_order: 3
 has_children: false
 ---
 # The Agile Manifesto
-Every software engineer in Dolittle is a strong believer in the [Agile manifesto](https://agilemanifesto.org) and stand tall behind the 12 principles found therein. 
+Every software engineer in Dolittle is a strong believer in the [Agile manifesto](https://agilemanifesto.org) and stand tall behind the 12 principles found therein.
 
 ## The 12 Principles behind the Agile manifesto
 Our highest priority is to satisfy the customer

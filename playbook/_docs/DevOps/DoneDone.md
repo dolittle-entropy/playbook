@@ -3,7 +3,7 @@ layout: default
 title: Definition of Done
 nav_order: 2
 has_children: false
-parent: DevOps
+parent: Maintaining a Running System
 ---
 # Use Done-Done checklist
 

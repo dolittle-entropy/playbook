@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Definition of Ready
-parent: DevOps
+parent: Maintaining a Running System
 nav_order: 1
 has_children: false
 ---

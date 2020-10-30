@@ -3,7 +3,7 @@ layout: default
 title: Logging and Monitoring
 nav_order: 4
 has_children: false
-parent: DevOps
+parent: Maintaining a Running System
 ---
 # Logging and Monitoring
 
@@ -32,13 +32,13 @@ Logging should be taken care since the beginning of the software development. We
 A good exercise during software development is to ask ourselves what can go wrong in this operation/action? Once problem areas have been identified add log information. A few guidelines:
 
 - When interacting with an external system we should know when a call fails. On a more detailed level we might want to log all calls made to external system. Doing so allows us to answer questions as *"Are you calling our system? When? What were the inputs and outputs?"*.
-  
+
 - Be able to identify which configuration settings our application is running. For instance, `using API located at http://xyz` or `setting min io threads to 5`. This information helps identify why reading files asynchronously is taking longer than expected.
 
 - Log when important events occurred, i.e. when an order is created. Not finding logs for "order created" in the last 30 minutes might indicate a problem.
 
 - Adding more information about errors. For instance, when a MongoDb call fails by default we only know the low level reason. By catching the error and logging "Failed to update basket" we also know in which scenario the stored procedure was called.
-  
+
 ### Logging
 
 - Use existing logging frameworks and store logs in separate storage
