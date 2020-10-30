@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Practices and Principles
-nav_order: 3
+nav_order: 2
 has_children: true
 parent: Creating Software
 ---
