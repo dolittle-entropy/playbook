@@ -3,6 +3,7 @@ layout: default
 title: Practices and Principles
 nav_order: 3
 has_children: true
+parent: Creating Software
 ---
 # Engineering Practices And Principles
 

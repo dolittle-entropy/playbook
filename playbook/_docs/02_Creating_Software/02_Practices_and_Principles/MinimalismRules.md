@@ -4,8 +4,9 @@ title: Minimalism Rules
 nav_order: 2
 has_children: false
 parent: Practices and Principles
+grand_parent: Creating Software
 ---
-# Follow Minimalism Rules 
+# Follow Minimalism Rules
 
 ## (http://minifesto.org/)
 

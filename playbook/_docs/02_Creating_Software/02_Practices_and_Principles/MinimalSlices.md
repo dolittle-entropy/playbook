@@ -4,6 +4,7 @@ title: Minimal Slices
 nav_order: 3
 has_children: false
 parent: Practices and Principles
+grand_parent: Creating Software
 ---
 # Deliver using Minimal Valuable Slices
 
