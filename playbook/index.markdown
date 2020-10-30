@@ -26,6 +26,25 @@ This play-book is/should be hosted in a public repository on GitHub. We encourag
 delivered via pull-request to this repository. The pull-request -process is described in the section on [working with git
 and github](add-link-here).
 
+## Sections that don't yet exist
+- how to run hackathons
+- how to do event-stormings
+- how to break up an "epic" into smaller delierables
+- how to work remotely
+- how to identify a product-owner
+
+## Sections that exist, but need work
+- [The Dolittle Platform](docs/02_Creating_Software/03_The_Dolittle_Platform/index)
+  - [EDA](docs/02_Creating_Software/03_The_Dolittle_Platform/EDA)
+  - [Microservices](docs/02_Creating_Software/03_The_Dolittle_Platform/Microservices)
+- [Maintaining a Running System](docs/03_maintaining_a_running_system/index)
+
+## Other things needed
+The pages are not perfectly organised right now. Pages that talk about how to work in with and in a team
+should be mostly under the Working on a Team -section, and the "harder" code and day-to-day tools -things
+should be pulled into the "Creating Software" -section. Some of this is to separate parts of a single
+page into the "soft" and the "hard" aspects of one thing.
+
 ## License
 TODO figure out which license to use - is this supposed to be creative-commons? perhaps public domain?
 
