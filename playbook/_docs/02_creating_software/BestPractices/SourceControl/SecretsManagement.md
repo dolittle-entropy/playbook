@@ -3,6 +3,7 @@ layout: default
 title: Managing Secrets
 nav_order: 5
 has_children: false
+grand_parent: Creating Software
 parent: Source Control
 ---
 ## Managing Secrets
@@ -27,6 +28,7 @@ same applies to secrets stored in such a way - they should never be committed (e
 and the "production" -secrets should not be available to the developers.
 
 In a production system, assuming Dolittle, the secrets would be created in the environment of the running process.
+
 >TBD
 
 *It is best practice to maintain separate secrets configurations for each separate environment that you run. e.g. dev,

@@ -3,6 +3,7 @@ layout: default
 title: Source Control
 nav_order: 2
 has_children: true
+parent: Creating Software
 ---
 # Source Control
 There are many different options when working with Source Control. In CD we use [Azure DevOps](https://dev.azure.com) for private repositories and [GitHub](https://github.com/) for public repositories.
@@ -14,7 +15,7 @@ There are many different options when working with Source Control. In CD we use 
 
 ## Evidence and Measures
 - [ ] The master branches are locked and merges are done through PRs which follow the guidelines outlined in the Code Reviews section
-- [ ] The commit history is consistent and the commit messages provide useful information about the WHAT and WHY (instead of the HOW) of the change. 
+- [ ] The commit history is consistent and the commit messages provide useful information about the WHAT and WHY (instead of the HOW) of the change.
 - [ ] All public repositories follow the OSS guidelines highlighted below
 - [ ] No secrets are published or part of the public commit history
 
