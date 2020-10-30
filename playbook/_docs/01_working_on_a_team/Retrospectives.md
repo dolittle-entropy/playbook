@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Retrospectives
-nav_order: 3
 has_children: false
-parent: Maintaining a Running System
+parent: Working on a Team
 ---
 # Retrospectives
 

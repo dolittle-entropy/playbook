@@ -3,14 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+has_children: false
 ---
 # Dolittle Customer Success Play-Book
-This is a living document about how to help customers find success, with a particular slant to working on the Dolittle
-platform.
+This is a living document about how to help customers find success, with a particular slant to
+working on the Dolittle platform.
 
-We have collated text from many sources into this play-book, and we hope it will help you. If you find it helpful, please
-share it with others and consider evolving it further with us by submitting changes and improvements back to it, or
-making your own version tailored to your needs and preferences.
+We have collated text from many sources into this play-book, and we hope it will help you. If you
+find it helpful, please share it with others and consider evolving it further with us by submitting
+changes and improvements back to it, or making your own version tailored to your needs and preferences.
+
+## Why do we have a Playbook?
+- To increase overall hapiness and effectivity of team members and the whole team
+- To document learnings and experience with what works and what does not work and lead to a more enjoyable and effective future
+- Reduce the number of mistakes and avoid common pitfalls
+- Strive to be a better developer, engineer, advisor and person and learn from other people’s shared experience
+
 
 ## Sections
 
@@ -41,8 +49,21 @@ and github](add-link-here).
   - dapper
   - fluent validations
   - node
+  - docker
+  - k8s
+  - tye
+  - aspnetcore
+  - swagger
+* Component Tests
+* DevOps
+  * Component Versioning
+  * Performance
+* Security
+  * Threat Modelling
+* Regulatory Compliance
 
 ## Sections that exist, but need work
+- [Working on a Team](docs/01_working_on_a_team/index)
 - [The Dolittle Platform](docs/02_Creating_Software/03_The_Dolittle_Platform/index)
   - [EDA](docs/02_Creating_Software/03_The_Dolittle_Platform/EDA)
   - [Microservices](docs/02_Creating_Software/03_The_Dolittle_Platform/Microservices)
@@ -58,5 +79,6 @@ page into the "soft" and the "hard" aspects of one thing.
 TODO figure out which license to use - is this supposed to be creative-commons? perhaps public domain?
 
 ## Code of conduct
-To participate in the making of this play-book you must follow our [Code of Conduct](CodeOfConduct) which is adapted
-from the [Contributor's Covenant version 1.3.0](https://www.contributor-covenant.org/version/1/3/0/code-of-conduct.html).
+To participate in the making of this play-book you must follow our [Code of Conduct](CodeOfConduct)
+which is adapted from the
+[Contributor's Covenant version 1.3.0](https://www.contributor-covenant.org/version/1/3/0/code-of-conduct.html).

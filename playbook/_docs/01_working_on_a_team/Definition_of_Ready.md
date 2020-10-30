@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Definition of Ready
-parent: Maintaining a Running System
+parent: Working on a Team
 nav_order: 1
 has_children: false
 ---

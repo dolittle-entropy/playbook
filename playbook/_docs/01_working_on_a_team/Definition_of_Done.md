@@ -3,7 +3,7 @@ layout: default
 title: Definition of Done
 nav_order: 2
 has_children: false
-parent: Maintaining a Running System
+parent: Working on a Team
 ---
 # Use Done-Done checklist
 

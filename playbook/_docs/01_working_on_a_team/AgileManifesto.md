@@ -1,14 +1,25 @@
 ---
 layout: default
 title: Agile Manifesto
-parent: Maintaining a Running System
-nav_order: 3
+parent: Working on a Team
 has_children: false
 ---
 # The Agile Manifesto
-Every software engineer in Dolittle is a strong believer in the [Agile manifesto](https://agilemanifesto.org) and stand tall behind the 12 principles found therein.
 
-## The 12 Principles behind the Agile manifesto
+> We are uncovering better ways of developing software by doing it and helping others do it. Through
+> this work e have come to value:
+>
+> *Individuals and interactions* over processes and tools<br>
+> *Working software* over comprehensive documentation<br>
+> *Customer collaboration* over contract negotiation<br>
+> *Responding to change* over following a plan
+>
+> That is, while there is value in the items on the right, we value the items on the left more.
+
+We believe in the values expressed in the [Agile manifesto](https://agilemanifesto.org) and stand
+behind the [principles](https://agilemanifesto.org/principles.html) behind the manifesto.
+
+## Principles behind the Agile manifesto
 Our highest priority is to satisfy the customer
 through early and continuous delivery
 of valuable software.

@@ -14,12 +14,6 @@ Someone working in a Customer Delivery project ...
 
 This is the playbook. This playbook is yours and ours. Please contribute to it via standard git pull-requests on GitHub.
 
-## Why do we have a Playbook?
-- To increase overall hapiness and effectivity of team members and the whole team
-- To document learnings and experience with what works and what does not work and lead to a more enjoyable and effective future
-- Reduce the number of mistakes and avoid common pitfalls
-- Strive to be a better developer, engineer, advisor and person and learn from other people’s shared experience
-
 ## General Guidance
 - Keep the code quality high
 - Value quality and correctness over ‘getting things done’
@@ -37,11 +31,4 @@ This is the playbook. This playbook is yours and ours. Please contribute to it v
 
 ## This playbook needs contributions on:
 
-* Component Tests
-* DevOps
-  * Component Versioning
-  * Performance
-* Security
-  * Threat Modelling
-* Regulatory Compliance
 
