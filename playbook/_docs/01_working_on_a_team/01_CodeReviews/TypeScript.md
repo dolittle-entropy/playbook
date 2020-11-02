@@ -16,58 +16,36 @@ We use [`Prettier`](https://prettier.io/) to do code formatting for TypeScript. 
 {
     ...
     "prettier.singleQuote": true,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 80
 }
 ```
 
 ## Linter
 
-All developers should run `TSLint` in a pre-commit hook to ensure standard formatting. We highly recommend using an editor integration like [vscode-tslint](https://github.com/Microsoft/vscode-tslint) to provide realtime feedback.
+We recommend developers to use `ESLint`. We highly recommend using an editor integration like [vscode-eslint](https://github.com/Microsoft/vscode-eslint) to provide realtime feedback.
+
+**Note: TSLint is deprecated in favour for ESLint**
+
+## Git Commit Pre-Hook
+It is recommended to automate running ESLint as a pre-commit hook to ensure formatting rules are followed regardless of editor that is used. Depending on your needs, it can be set to fix any auto fixable errors automatically. The negative side of auto fixing is that it's changing the code without a developers knowledge, which may not be desired.
 
 Recommended: [lint-staged and husky](https://github.com/okonet/lint-staged#installation-and-setup)
 
--   `husky` is a very popular tool for running pre-commit hooks and preventing commits whose hooks fail.
+-   `husky` is a popular tool for running pre-commit hooks and preventing commits whose hooks fail.
 -   `lint-staged` ensures that only staged files get checked to determine if the pre-commit hooks need to be run.
 
-Recommended: [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
+Recommended: [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
 
--   This set of TSLint rules is already used by many Microsoft projects.
+-   This set of basic ESlint that are valid for Typescript. These can be used as they are or overridden as needed.
 
 ## Formatting/Linting Conflicts
 
-Since `Prettier` does not support integration with `TSLint`, we need to do one of the following:
+`Prettier` plays well with ESlint, and can be run as an ESlint rule for all code formatting rules. This allows ESlint to focus on other non-formatting rules, which it is good at.
 
-1. Use [tslint-config-prettier](https://www.npmjs.com/package/tslint-config-prettier)
-1. Disable some of the rules in TSLint as shown below with a sample tslint.json file (placed in the root of our project):
+### Set up Prettier and ESlint
 
-```json
-{
-    "defaultSeverity": "error",
-    "extends": ["tslint:recommended"],
-    "jsRules": {},
-    "rules": {
-        "quotemark": {
-            "options": "single"
-        },
-        "arrow-parens": {
-            "options": "ban-single-arg-parens"
-        },
-        "no-console": false,
-        "trailing-comma": {
-            "options": [
-                {
-                    "esSpecCompliant": true
-                }
-            ]
-        },
-        "jsdoc-format": false,
-        "curly": {
-            "options": ["ignore-same-line"]
-        }
-    },
-    "rulesDirectory": []
-}
-```
+TBD
 
 ## YAML
 
