@@ -35,6 +35,7 @@ delivered via pull-request to this repository. The pull-request -process is desc
 and github](add-link-here).
 
 ## Sections that don't yet exist
+- replayability of event-handling!
 - how to run hackathons
 - how to do event-stormings
 - how to break up an "epic" into smaller delierables
