@@ -38,8 +38,8 @@ to fit their team needs.
 
 ## Quality and not quantity
 
-- We agree on a [Definition of Done](/docs/01_working_on_a_team/Definition_of_Done) for our user story's and sprints and live by it.
-- We follow engineering best practices like the [Code With Engineering Playbook](/docs/01_working_on_a_team/index)
+- We agree on a [Definition of Done](/playbook/docs/01_working_on_a_team/Definition_of_Done) for our user story's and sprints and live by it.
+- We follow engineering best practices like the [Code With Engineering Playbook](/playbook/docs/01_working_on_a_team/index)
 
 ## ScrumBan rhythm
 
