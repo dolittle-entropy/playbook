@@ -29,6 +29,7 @@ twitter_username: dolittle
 github_username:  dolittle
 logo: "https://uploads-ssl.webflow.com/5e68e8de2de982aa5aa888d2/5e68eb5e74a45a5ed1fb9d51_dolittle_orange2A.png"
 
+
 # Build settings
 # theme : minima
 theme: just-the-docs
@@ -42,7 +43,8 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+include:
+  - _docs/
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
