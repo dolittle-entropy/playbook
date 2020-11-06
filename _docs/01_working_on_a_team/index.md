@@ -21,7 +21,7 @@ has_children: true
 
 This is the playbook. This playbook is yours and ours. Please contribute to it via standard git pull-requests on GitHub.
 
-# Working on a team
+## Working on a team
 
 write stuff about teamwork here
 - how big should a team be?
