@@ -34,7 +34,7 @@ write stuff about teamwork here
 
 ## The "CheckList"
 
-If you do nothing else follow the [Engineer's Checklist](../02_Creating_Software/Engineers-checklist.md)! It's there to help follow the Engineering Fundamentals.
+If you do nothing else follow the [Engineer's Checklist](../02_Creating_Software/Engineers-checklist)! It's there to help follow the Engineering Fundamentals.
 
 ## Contributing
 
