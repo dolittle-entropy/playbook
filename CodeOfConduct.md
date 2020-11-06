@@ -1,3 +1,8 @@
+---
+layout: default
+title: Code of Conduct
+has_children: false
+---
 # Contributor Code of Conduct
 
 As contributors and maintainers of this project, and in the interest of

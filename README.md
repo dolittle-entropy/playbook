@@ -62,6 +62,13 @@ and type
 ```bash
 bundler exec jekyll serve
 ```
+
 And now you're all done, you can open the folder in your editor of choice and have updates to the documents applied as you save. Remember
 to refresh the browser to have a peek!
+
+The documentation can be browsed at
+
+[http://127.0.0.1:4000/docs/](http://127.0.0.1:4000/docs/)
+
+
 
