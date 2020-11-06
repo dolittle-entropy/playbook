@@ -3,7 +3,7 @@ layout: default
 title: C-Sharp
 nav_order: 1
 has_children: false
-grand_parent: Working on a Team
+grand_parent: Welcome
 parent: Code Reviews
 ---
 # C# Code Reviews

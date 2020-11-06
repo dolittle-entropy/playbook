@@ -3,7 +3,7 @@ layout: default
 title: TypeScript
 nav_order: 2
 has_children: false
-grand_parent: Working on a Team
+grand_parent: Welcome
 parent: Code Reviews
 ---
 # TypeScript Code Reviews

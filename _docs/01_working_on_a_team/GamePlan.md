@@ -3,7 +3,7 @@ layout: default
 title: Game Plan
 nav_order: 1
 has_children: false
-parent: Working on a Team
+parent: Welcome
 ---
 # Sections of a Game Plan
 

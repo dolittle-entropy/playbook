@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Definition of Ready
-parent: Working on a Team
+parent: Welcome
 nav_order: 2
 has_children: false
 ---

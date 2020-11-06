@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to our Playbook
+title: Welcome
 nav_order: 1
 has_children: true
 ---

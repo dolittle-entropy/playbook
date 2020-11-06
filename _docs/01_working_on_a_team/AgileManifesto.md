@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Agile Manifesto
-parent: Working on a Team
+parent: Welcome
 nav_order: 6
 has_children: false
 ---

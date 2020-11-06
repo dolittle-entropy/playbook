@@ -3,7 +3,7 @@ layout: default
 title: Retrospectives
 has_children: false
 nav_order: 5
-parent: Working on a Team
+parent: Welcome
 ---
 # Retrospectives
 
