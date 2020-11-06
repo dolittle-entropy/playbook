@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Working Agreement
+title: Game Plan
 nav_order: 3
 has_children: false
 parent: Working on a Team
 ---
-# Sections of a working agreement
+# Sections of a Game Plan
 
-A working agreement is a document or a set of documents that describe how we work together as a team
+A game plan is a document or a set of documents that describe how we work together as a team
 and what our expectations and principles are.
 
-The working agreement created by the team at the beginning of the project, and is stored in the
+The game plan created by the team at the beginning of the project, and is stored in the
 repository so that it is readily available for everyone working on the project.
 
-The following are examples of sections and points that can be part of a working agreement but each
+The following are examples of sections and points that can be part of a game plan but each
 team should compose their own, and adjust times, communication channels, branch naming policies etc.
 to fit their team needs.
 
@@ -83,7 +83,7 @@ The process lead is responsible for leading any scrum or agile practices to enab
 
 - We follow the git flow branch naming convention for branches and identify the task number eg. `feature/123-add-working-agreement`
 - We merge all code into main branches through PRs
-- All PRs are reviewed by one person from [Customer/Partner Name] and one from Microsoft (for knowledge transfer and to ensure code and security standards are met)
+- All PRs are reviewed by one person from [Customer/Partner Name] and one from Dolittle (for knowledge transfer and to ensure code and security standards are met)
 - We always review existing PRs before starting work on a new task
 - We look through open PRs at the end of stand-up to make sure all PRs have reviewers.
 - We treat documentation as code and apply the same [standards to Markdown](../../../code-reviews/recipes/Markdown.md) as code
