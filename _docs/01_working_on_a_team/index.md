@@ -15,7 +15,7 @@ write stuff about teamwork here
 - mentoring
 - work-life-balance
 
-## Everyone working in Customer Delivery..
+## Everyone working in Customer Delivery...
 
 * is responsible to their team for their deliveries, but also strives to mentor, coach and lead and learn from them.
 * knows their **playbook** and follows their playbook. They fix their playbook if it is broken, and improve it when they can. If they find a better playbook, they copy it. If somebody could use their playbook, they share it.
