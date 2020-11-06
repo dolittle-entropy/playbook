@@ -6,9 +6,9 @@ has_children: false
 grand_parent: Welcome
 parent: Code Reviews
 ---
-# C# Code Reviews
+# C# Code reviews
 
-## C# Style Guide
+## C# style Guide
 
 CD developers follow **Dolittle**s [C# Coding Conventions](https://dolittle.io/contributing/guidelines/csharp_coding_styles/) and, where applicable, Microsoft's [Secure Coding Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines).
 
@@ -18,7 +18,7 @@ CD projects should check code style with the [StyleCop Analyzers for the .NET Co
 
 Documentation on setting up code analysis for a project is provided [here](https://docs.microsoft.com/en-us/visualstudio/code-quality/code-analysis-for-managed-code-overview).
 
-## Starter Code Review Checklist
+## Starter code review checklist
 
 1. [ ] Is framework version of code compatible with the target system
 1. [ ] Does this code make correct use of [asynchronous programming constructs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/#BKMK_AsyncandAwait), including proper use of ```await``` and ```Task.WhenAll```?

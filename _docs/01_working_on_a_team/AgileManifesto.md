@@ -5,7 +5,7 @@ parent: Welcome
 nav_order: 6
 has_children: false
 ---
-# The Agile Manifesto
+# The agile manifesto
 
 > We are uncovering better ways of developing software by doing it and helping others do it. Through
 > this work e have come to value:
@@ -20,7 +20,7 @@ has_children: false
 We believe in the values expressed in the [Agile manifesto](https://agilemanifesto.org) and stand
 behind the [principles](https://agilemanifesto.org/principles.html) behind the manifesto.
 
-## Principles behind the Agile manifesto
+## Principles behind the agile manifesto
 Our highest priority is to satisfy the customer
 through early and continuous delivery
 of valuable software.

@@ -6,9 +6,9 @@ has_children: false
 grand_parent: Welcome
 parent: Code Reviews
 ---
-# TypeScript Code Reviews
+# TypeScript code reviews
 
-## Style Guide
+## Style guide
 
 We use [`Prettier`](https://prettier.io/) to do code formatting for TypeScript. Using an automated code formatting tool like Prettier enforces a well accepted style guide that was collaboratively built by a wide range of companies including Microsoft, Facebook, and AirBnB. It is highly recommended that you use one of the native editor integrations and enable format on save. In addition, by default, we use the following overrides (shown here in the config format for VSCode) to standardize on single quotes and a 4-space indent:
 
@@ -27,7 +27,7 @@ We recommend developers to use `ESLint`. We highly recommend using an editor int
 
 **Note: TSLint is deprecated in favour for ESLint**
 
-## Git Commit Pre-Hook
+## Git commit pre-hook
 It is recommended to automate running ESLint as a pre-commit hook to ensure formatting rules are followed regardless of editor that is used. Depending on your needs, it can be set to fix any auto fixable errors automatically. The negative side of auto fixing is that it's changing the code without a developers knowledge, which may not be desired.
 
 Recommended: [lint-staged and husky](https://github.com/okonet/lint-staged#installation-and-setup)
@@ -39,11 +39,11 @@ Recommended: [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@t
 
 -   This set of basic ESlint that are valid for Typescript. These can be used as they are or overridden as needed.
 
-## Formatting/Linting Conflicts
+## Formatting/linting conflicts
 
 `Prettier` plays well with ESlint, and can be run as an ESlint rule for all code formatting rules. This allows ESlint to focus on other non-formatting rules, which it is good at.
 
-### Set up Prettier and ESlint
+### Set up Prettier and Eslint
 
 TBD
 
@@ -68,7 +68,7 @@ You will then need to exclude YAML files from `Prettier` by adding a .prettierig
 **/*.yaml
 ```
 
-## Code Review Checklist
+## Code review checklist
 
 In addition to the [general Code Review checklist](../CodeReviews.md), you should also look for these additional TypeScript related code review items:
 

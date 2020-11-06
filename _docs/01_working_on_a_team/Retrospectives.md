@@ -15,13 +15,13 @@ Development teams working on **Customer Delivery** projects will conduct [agile 
 1. Involve everyone in the learning and improvement.
 1. The dev team and *the larger org* learn from each engagement.
 
-## Evidence and Measures
+## Evidence and measures
 
 At the end of each milestone or engagement, the team will write up the results of their retrospective, including 1-3 proposed changes or experiments. Owners will be assigned to each item, to make sure that retrospection leads to action, when desired.
 
 Proposed changes coming out of iteration retrospectives should be tracked as tasks or bugs in the project backlog.
 
-## General Guidance
+## General guidance
 
 The [*Agile Retrospectives*](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) book provides a clear script for conducting retrospectives. Every retrospective should follow some version of the script, depending on the length of the retrospective. The basic script is:
 
@@ -33,7 +33,7 @@ The [*Agile Retrospectives*](https://www.amazon.com/Agile-Retrospectives-Making-
 
 Within that script, the facilitator can make choices with regard to which activities to use for each element.
 
-### Project or Milestone Retrospective
+### Project or milestone retrospective
 
 These are the most intense retrospectives, in that they cover more project working time and should be the strictest with regard to following the ceremony described in the retrospective book. The goal of most project or milestone retrospectives is to identify proposed changes that the engineering crew or all of CD might try in the next project. Teams should cover the overall project or milestone, including the development phase, how the on-site hack went, how well the customer engineering team engaged, how well the wrap up activities went, how well the whole CD team worked together, etc.
 
@@ -63,7 +63,7 @@ We recommend that project and milestone retrospectives bring in an experienced f
 1. Follow up on proposed changes and experiments.
 
 
-### Iteration Retrospective
+### Iteration retrospective
 
 Iteration reviews should follow the ceremony of the retrospective script, but using less time and fewer activities than the project or milestone retrospective. Iteration (sprint) retrospectives will focus more on execution and implementation details and how the team can improve execution for future iterations.
 
@@ -84,7 +84,7 @@ Usually, the scrum master or engineering manager will lead the first one or two 
     1. Make sure someone is responsible for adding the proposed changes and/or experiments to work item tracking.
     1. Thank everyone for participating.
 
-### Single-Day Iteration Retrospective
+### Single-day iteration retrospective
 
 This variation assumes that the team is running an iteration per day, which is common in code-with engagements or hacks that have higher levels of uncertainty. In a single-day sprint, the team runs a 15-30 minute planning session for the day, conducts at least one standup (frequently immediately after lunch), and has a short demo, followed by a short retrospective at the end of the day.
 
@@ -105,11 +105,11 @@ The scrum master or engineering manager will lead these short retrospectives.
     1. Make sure someone is responsible for adding the proposed changes and/or experiments to work item tracking.
     1. Thank everyone for participating.
 
-### Recommended Activity Recipes
+### Recommended activity recipes
 
 Below are recommended commendations of activities to use in the slots above.
 
-#### Tough Project Milestone
+#### Tough project milestone
 
 Give participants a chance to vent before getting into the more analytical parts of the retrospective.
 

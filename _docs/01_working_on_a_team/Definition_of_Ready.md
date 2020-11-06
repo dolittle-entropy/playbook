@@ -5,7 +5,7 @@ parent: Welcome
 nav_order: 2
 has_children: false
 ---
-# Definition of Ready
+# Definition of ready
 
 When the development team picks a user story from the top of the backlog, the user story needs to have enough detail to estimate the work needed to complete the story within the sprint. If it has enough detail to estimate, it is Ready to be developed.
 
@@ -32,7 +32,7 @@ It can be understood as a checklist that helps the Product Owner to ensure that 
 
 The ready checklist can be written by a Product Owner in agreement with the development team and the Process Lead.
 
-## When should a Definition of Ready be updated
+## When should a Definition of ready be updated
 
 Update or change the definition of ready anytime the scrum team observes that there are missing information in the user stories that recurrently impacts the planning.
 

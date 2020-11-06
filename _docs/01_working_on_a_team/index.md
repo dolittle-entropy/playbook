@@ -4,7 +4,7 @@ title: Welcome
 nav_order: 1
 has_children: true
 ---
-# Welcome to our Engineering Playbook!
+# Welcome to our engineering playbook!
 
 ## What is the purpose of this playbook?
 
@@ -12,7 +12,7 @@ has_children: true
 * Reduce the number of mistakes and avoid common pitfalls.
 * Strive to be a better engineer and learn from other people's shared experience.
 
-## Everyone working in Customer Delivery...
+## Everyone working in customer delivery...
 
 * is responsible to their team for their deliveries, but also strives to mentor, coach and lead and learn from them.
 * knows their **playbook** and follows their playbook. They fix their playbook if it is broken, and improve it when they can. If they find a better playbook, they copy it. If somebody could use their playbook, they share it.
@@ -32,7 +32,7 @@ write stuff about teamwork here
 - mentoring
 - work-life-balance
 
-## The "CheckList"
+## The "checkList"
 
 If you do nothing else follow the [Engineer's Checklist](../02_Creating_Software/Engineers-checklist)! It's there to help follow the Engineering Fundamentals.
 

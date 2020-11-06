@@ -5,7 +5,7 @@ nav_order: 1
 has_children: false
 parent: Welcome
 ---
-# Sections of a Game Plan
+# Sections of a game plan
 
 A game plan is a document or a set of documents that describe how we work together as a team
 and what our expectations and principles are. It is a living agreement between the Customer Delivery team and the [Project/Customer] on the practicalities of the engagement. 
@@ -52,7 +52,7 @@ to fit their team needs.
 | Task Creation                                                   | After Sprint Planning | -        | Dev Team      | Tech Lead    | Create tasks to clarify and determine velocity |
 | [Backlog grooming](../../backlog-management/grooming/readme.md) | Wednesday 2PM         | 1 hour   | Tech lead, PO | PO           | Prepare for next sprint and ensure that stories are ready for next sprint. |
 
-## Process Lead
+## Process lead
 
 The process lead is responsible for leading any scrum or agile practices to enable the project to move forward.
 

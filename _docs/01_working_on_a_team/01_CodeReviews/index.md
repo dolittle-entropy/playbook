@@ -5,7 +5,7 @@ nav_order: 4
 has_children: true
 parent: Welcome
 ---
-# Code Reviews
+# Code reviews
 
 Developers working on **Dolittle** projects will conduct peer code reviews on every pull request (or check-in to a shared branch).
 
@@ -15,7 +15,7 @@ Developers working on **Dolittle** projects will conduct peer code reviews on ev
 1.  Software engineers grow by learning from each other.
 1.  Participants working on a project develop a shared understanding of the project's code.
 
-## Evidence and Measures
+## Evidence and measures
 
 Many of these items can be automated or enforced by policy in modern version control and work item tracking systems. Verification of the policies on the master branch in VSTS, for example, may be sufficient evidence that a project team is conducting code reviews.
 
@@ -28,7 +28,7 @@ Many of these items can be automated or enforced by policy in modern version con
 
 In the future, we may introduce specific measures to help teams track their own performance, like how many code reviews each developer performed on a specific project or how many round trips code reviews take. These measures can take the focus off of improving code quality through peer reviews. Through our [Retrospective](../Engineering/Retrospectives.md) process, we will work with teams to adapt our approach to measurement and evaluating evidence.
 
-## General Guidance
+## General guidance
 
 The goal of code reviews is to identify and remove defects before they can be introduced into shared code branches. To the extent that parts of reviews can be automated via linters, human reviewers can focus on architectural and functional correctness. Human reviewers should focus on:
 
