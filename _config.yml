@@ -30,9 +30,11 @@ github_username:  dolittle
 logo: "https://uploads-ssl.webflow.com/5e68e8de2de982aa5aa888d2/5e68eb5e74a45a5ed1fb9d51_dolittle_orange2A.png"
 
 
+
+
 # Build settings
 # theme : minima
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
