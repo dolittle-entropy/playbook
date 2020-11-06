@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Game Plan
-nav_order: 3
+nav_order: 1
 has_children: false
 parent: Working on a Team
 ---
 # Sections of a Game Plan
 
 A game plan is a document or a set of documents that describe how we work together as a team
-and what our expectations and principles are.
+and what our expectations and principles are. It is a living agreement between the Customer Delivery team and the [Project/Customer] on the practicalities of the engagement. 
 
 The game plan created by the team at the beginning of the project, and is stored in the
 repository so that it is readily available for everyone working on the project.
@@ -38,8 +38,8 @@ to fit their team needs.
 
 ## Quality and not quantity
 
-- We agree on a [Definition of Done](/playbook/docs/01_working_on_a_team/Definition_of_Done) for our user story's and sprints and live by it.
-- We follow engineering best practices like the [Code With Engineering Playbook](/playbook/docs/01_working_on_a_team/index)
+- We agree on a [Definition of Done](./Definition_of_Done) for our user story's and sprints and live by it.
+- We follow engineering best practices like the [Code With Engineering Playbook](./index)
 
 ## ScrumBan rhythm
 
@@ -70,11 +70,11 @@ The process lead is responsible for leading any scrum or agile practices to enab
 
 ## Backlog management
 
-- We work together on a [Definition of Ready](../definition-of-ready/readme.md) and all user stories assigned to a sprint need to follow this
+- We work together on a [Definition of Ready](./Definition_of_Ready) and all user stories assigned to a sprint need to follow this
 - We communicate what we are working on through the board
 - We assign ourselves a task when we are ready to work on it (not before) and move it to active
 - We capture any work we do related to the project in a user story/task
-- We close our tasks/user stories only when they are done (as described in the [Definition of Done](../definition-of-done/readme.md))
+- We close our tasks/user stories only when they are done (as described in the [Definition of Done](.//Definition_of_done))
 - We work with the PM if we want to add a new user story to the sprint
 - If we add new tasks to the board, we make sure it matches the acceptance criteria of the user story (to avoid scope creep).
   If it doesn't match the acceptance criteria we should discuss with the PM to see if we need a new user story for the task or if we should adjust the acceptance criteria.

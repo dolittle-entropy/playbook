@@ -2,7 +2,7 @@
 layout: default
 title: Definition of Ready
 parent: Working on a Team
-nav_order: 1
+nav_order: 2
 has_children: false
 ---
 # Definition of Ready

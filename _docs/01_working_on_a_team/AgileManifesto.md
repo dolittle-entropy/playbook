@@ -2,6 +2,7 @@
 layout: default
 title: Agile Manifesto
 parent: Working on a Team
+nav_order: 6
 has_children: false
 ---
 # The Agile Manifesto

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Definition of Done
-nav_order: 2
+nav_order: 3
 has_children: false
 parent: Working on a Team
 ---
