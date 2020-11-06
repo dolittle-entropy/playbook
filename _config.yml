@@ -28,6 +28,10 @@ twitter_username: dolittle
 github_username:  dolittle
 logo: "https://uploads-ssl.webflow.com/5e68e8de2de982aa5aa888d2/5e68eb5e74a45a5ed1fb9d51_dolittle_orange2A.png"
 
+footer_content: "Copyright &copy; 2020 Dolittle AS. Distributed by an <a href=\"https://github.com/dolittle-entropy/playbook/blob/main/_docs/Templates/LICENSE\">MIT license.</a>"
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
 
 # Define Jekyll collections
 collections:
