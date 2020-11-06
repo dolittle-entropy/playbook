@@ -6,7 +6,7 @@ has_children: false
 parent: Practices and Principles
 grand_parent: Creating Software
 ---
-# Deliver using Minimal Valuable Slices
+# Deliver using minimal valuable slices
 
 ## Always deliver your work using minimal valuable slices:
 * Split your work item on smaller chunks which could be contributed incrementally (from

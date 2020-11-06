@@ -11,7 +11,7 @@ grand_parent: Creating Software
 > **TBD**: Our current understanding of EDA and how we may differ from others. [Reference](https://martinfowler.com/articles/201701-event-driven.html)
 
 
-## Event Notification
+## Event notification
 
 ## Event-Carried State Transfer
 

@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 parent: Creating Software
 ---
-# Engineering Practices And Principles
+# Engineering practices and principles
 
 While working on the project we try to stick with best practices in architecture for development and design that help us to produce better quality code and make the overall process more effective.
 
@@ -17,7 +17,7 @@ While working on the project we try to stick with best practices in architecture
 * Strive to be a better engineer and learn by other people's shared experience
 * Build a shared knowledge of the domain and system, so nobody becomes a bottle-neck
 
-## General Guidance
+## General guidance
 
 * Always target high code quality bar, constantly polish your dev skills. Slow down to go fast. Value quality and precision over ‘getting things done’
 * Work diligently on the one important thing
@@ -33,9 +33,9 @@ While working on the project we try to stick with best practices in architecture
 * Report product issues found not related to your task
 * Be on the lookout for opportunities to improve the process and product. Capture these opportunities, and test them out.
 
-## Additional Guidance
+## Additional guidance
 
-* [Avoid Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html)
-* [Use Done-Done checklist](BestPractices/DoneDone.md)
-* [Deliver using Minimal Valuable Slices](BestPractices/MinimalSlices.md)
-* [Follow Minimalism Rules](BestPractices/MinimalismRules.md)
+* [Avoid technical debt](https://martinfowler.com/bliki/TechnicalDebt.html)
+* [Use done-done checklist](BestPractices/DoneDone.md)
+* [Deliver using minimal valuable slices](BestPractices/MinimalSlices.md)
+* [Follow minimalism rules](BestPractices/MinimalismRules.md)

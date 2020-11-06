@@ -5,7 +5,7 @@ nav_order: 1
 has_children: true
 parent: Creating Software
 ---
-# Source Control
+# Source control
 There are many different options when working with Source Control. In CD we use [Azure DevOps](https://dev.azure.com) for private repositories and [GitHub](https://github.com/) for public repositories.
 
 ## Goals
@@ -13,7 +13,7 @@ There are many different options when working with Source Control. In CD we use 
 * Improve code quality by enforcing reviews before merging into master branches
 * Improve traceability of features and fixes through a clean commit history
 
-## Evidence and Measures
+## Evidence and measures
 - [ ] The master branches are locked and merges are done through PRs which follow the guidelines outlined in the Code Reviews section
 - [ ] The commit history is consistent and the commit messages provide useful information about the WHAT and WHY (instead of the HOW) of the change.
 - [ ] All public repositories follow the OSS guidelines highlighted below
@@ -21,7 +21,7 @@ There are many different options when working with Source Control. In CD we use 
 
 Familiarize youself with the blog post [Writing Git Commit Messages](https://chris.beams.io/posts/git-commit/) by Chris Beans
 
-## General Guidance
+## General guidance
 Consistency is crucial, therefore the team has to agree on their approach before they start to code. At a minimum, the team should do the following:
 * agree on their **branch**, **release** and **merge strategy**
 * define their approach to commit history (linear or non-linear)

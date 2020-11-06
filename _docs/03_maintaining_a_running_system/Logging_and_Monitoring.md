@@ -5,7 +5,7 @@ nav_order: 4
 has_children: false
 parent: Maintaining a Running System
 ---
-# Logging and Monitoring
+# Logging and monitoring
 
 Services that CD develop use logging and monitoring for understanding service performance, get insight into complex workflows and a tool for debugging service failures.
 
@@ -16,7 +16,7 @@ Services that CD develop use logging and monitoring for understanding service pe
 3. Ability to diagnose and debug errors and service outages
 4. Provide the required information to understand the state of the running system
 
-## Evidence and Measures
+## Evidence and measures
 
 - [ ] Application faults and errors are logged
 - [ ] Additional log information (warning, debug, trace) are collected depending on configuration
@@ -25,7 +25,7 @@ Services that CD develop use logging and monitoring for understanding service pe
 - [ ] In microservice architectures correlation ID is actively used to follow the flow of an operation among participant services
 - [ ] GDPR compliance is ensured regarding personal identifiable information
 
-## General Guidance
+## General guidance
 
 Logging should be taken care since the beginning of the software development. We should avoid a scenario where production has issues but our application does not provide enough information to help us identify the problem.
 

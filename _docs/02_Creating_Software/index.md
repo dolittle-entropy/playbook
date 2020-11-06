@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 ---
 
-## General Guidance
+## General guidance
 - Keep the code quality high
 - Value quality and correctness over ‘getting things done’
 - Work diligently to identify and solve on the most important thing first

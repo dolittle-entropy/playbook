@@ -5,7 +5,7 @@ nav_order: 3
 grand_parent: Creating Software
 parent: Source Control
 ---
-# Unit Testing
+# Unit testing
 
 ## Goals
 Unit tests play an integral role in building quality software and enabling agile methodologies. CD recommends all efforts follow [Test Driven Development](http://deviq.com/test-driven-development/) where ever possible, i.e. code should have unit tests unless it's developed for an environment without unit testing capabilities, e.g. Azure Stream Analytics. With TDD, engineers start with coding the test(s), which will initially fail. The implementation of the unit is finished when the unit satisfies the tests.
@@ -17,12 +17,12 @@ Unit tests play an integral role in building quality software and enabling agile
 - Provide confidence to potential contributors
 - Developer Documentation of API usage
 
-## Evidence and Measures
+## Evidence and measures
 The [CICD already requires badges in place](./BestPractices/CICD.md) for every repo to quickly assess code coverage and test pass/fail.
 
 The team should also keep in an eye on tests that may not be running as part of every merge, i.e. integration and e2e test.
 
-## General Guidance
+## General guidance
 The scope of a unit test is small. Engineers should use good judgement to provide a reasonable amount of unit test based on complexity of the unit to be tested, aligning with the overall goal of 70-80% code coverage. Unit tests should exercise more than the "happy path" paying specific attention to returned error values or exceptions thrown.
 
 Bug fixes should start with a test that reliably reproduces the bug to ensure that a particular commit will fix the bug as intended. Existing tests will reduce risk of regressions introduced by the fix.
@@ -33,7 +33,7 @@ In order to keep execution of unit tests fast and executable as part of a CI/CD 
 
 For integration or end-to-end testing, mocks should be replaced with API calls to the system they are simulating.
 
-### Writing Tests
+### Writing tests
 Good unit tests follow a few general principles:
 - Pass / Fail tests ensure intended succeeds and fails as designed.
 - Transactional tests ensure transactions commit or roll back as designed
@@ -46,7 +46,7 @@ For more complex applications, unit tests also ensure:
 - the unit can deals appropriately with transient outages of external dependencies (retry, fail-fast, …)
 - Stateful applications restore state when re-started
 
-## Specific Guidance
+## Specific guidance
 Languages and Platforms provide their own unit test tools and frameworks. In CD, we prefer:
 - .NET / .Net Core - [XUnit](https://xunit.net/)
 - Java: [JUnit](https://junit.org/junit5/)

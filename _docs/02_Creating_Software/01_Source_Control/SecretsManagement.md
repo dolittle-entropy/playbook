@@ -6,7 +6,7 @@ has_children: false
 grand_parent: Creating Software
 parent: Source Control
 ---
-## Managing Secrets
+## Managing secrets
 
 Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if
 made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS
@@ -16,7 +16,7 @@ We assume any repo we work on may be made public at any time and follow the appr
 the repo is initially private. As this would include the commit history it is important not to commit secrets event
 if you intend to move them to a "safe" store later on. Any secrets committed to the repo should be regarded as leaked.
 
-### General Approach
+### General approach
 
 The general approach is to keep secrets in a separate configuration file during development which is never checked in
 to the repo. Best practice would be to add this file name to the [.gitignore](https://git-scm.com/docs/gitignore) to
@@ -33,14 +33,14 @@ In a production system, assuming Dolittle, the secrets would be created in the e
 *It is best practice to maintain separate secrets configurations for each separate environment that you run. e.g. dev,
 test, prod, local etc*
 
-### Keeping Secrets Secret
+### Keeping secrets secret
 
 It should be obvious, but all the care taken to protect secrets is all for nothing if we aren't careful about how we use
 secrets once we have them. Primarily: **NEVER LOG SECRETS!!**. Don't put them in logging or reporting. Don't send them
 to other applications, don't use them in URLs, forms or in any other way other than to make a request to the service that
 requires that secret.
 
-### Enhanced-Security Applications
+### Enhanced-security applications
 
 The techniques outlined below provide 'good' security and a common pattern for a wide range of languages. They rely on
 the fact that Azure keeps application settings (the environment) encrypted until just before your app is run. Encryption
@@ -51,7 +51,7 @@ in garbage collected languages those values may exist for longer than the lifeti
 to maintain encryption on secrets throughout the application lifetime.*
 
 
-### Techniques for Secrets Management
+### Techniques for secrets management
 
 Below we outline a number of techniques that we can use to make the loading of secrets transparent to the
 developer.

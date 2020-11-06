@@ -5,7 +5,7 @@ nav_order: 2
 has_children: false
 parent: Source Control
 ---
-## Continuous Integration and Delivery
+## Continuous integration and delivery
 
 Continuous Integration is the engineering practice of frequently committing code in a shared repository, ideally several times a day, and performing an automated build on it. These changes are built with other simultaneous changes to the system, which enables early detection of integration issues between multiple developers working on a project. Build breaks due to integration failures are treated as the highest priority issue for all of the developers on a team and generally work stops until they are fixed.
 
@@ -23,7 +23,7 @@ For a much deeper understanding of all of these concepts, the books [Continuous 
 
 ### Tools
 
-**Azure Pipelines**
+**Azure pipelines**
 
 Our tooling at Microsoft has made setting up integration and delivery systems like this easy. If you are unfamiliar with it, take a few moments now to read through [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) (Previously VSTS) and for a practical walkthrough of how this works in practice, one example you can read through is [CI/CD on Kubernetes with VSTS](https://medium.com/@timfpark/application-ci-cd-on-kubernetes-with-visual-studio-team-services-ccacecdea8a5).
 

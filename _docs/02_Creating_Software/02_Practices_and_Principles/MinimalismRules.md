@@ -6,7 +6,7 @@ has_children: false
 parent: Practices and Principles
 grand_parent: Creating Software
 ---
-# Follow Minimalism Rules
+# Follow minimalism rules
 
 ## (http://minifesto.org/)
 

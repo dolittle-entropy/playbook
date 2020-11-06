@@ -6,7 +6,7 @@ has_children: false
 grand_parent: Creating Software
 parent: Source Control
 ---
-# Git - The basics
+# Git - the basics
 [Install Git](https://git-scm.com/downloads) and follow the [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
 ## Tools

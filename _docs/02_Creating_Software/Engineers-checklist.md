@@ -5,11 +5,11 @@ nav_order: 2
 has_children: false
 parent: Creating Software
 ---
-# Customer Delivery Fundamentals Checklist
+# Customer delivery fundamentals checklist
 
 This checklist helps to ensure that our projects meet our Engineering Fundamentals.
 
-## Source Control
+## Source control
 
 - [ ] A clear responsibility for the main branch has been established in the team (we recommend only merging through pull-requests)
 - [ ] There is a clear concensus on how to write commit-messages (see our recommendations under [Source Control](../../SourceControlDetails#write-good-commit-messages) for more details)
@@ -19,7 +19,7 @@ This checklist helps to ensure that our projects meet our Engineering Fundamenta
 
 More details on [Source Control](source-control/readme.md)
 
-## Work Item Tracking
+## Work item tracking
 
 - [ ] All items are tracked in AzDevOps (or similar).
 - [ ] Work items should be uniquely identifiable in some way (usually a number or identifier)
@@ -33,7 +33,7 @@ More details on [Source Control](source-control/readme.md)
 
 More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 
-## Continuous Integration and Continuous Delivery
+## Continuous integration and continuous delivery
 
 - [ ] The code is automatically built and tested when it is comitted (as a part of the pull-request, or on every commit, but at least before it reaches the main-branch)
 - [ ] The resulting artifacts of the automated pipeline should be what goes on the servers, not something from one developer's computer.
@@ -70,7 +70,7 @@ More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 - [ ] Tech Lead (+ product-owner/others) have responsibility for backlog management and grooming.
 - [ ] Working agreement between members of team and customer.
 
-## Design Reviews
+## Design reviews
 
 - [ ] Process for conducting design reviews is included in the [Working Agreement](/agile-development/team-agreements/working-agreements/readme.md)
 - [ ] Carry out and document design reviews for each major component of the solution, including alternatives
@@ -79,7 +79,7 @@ More details on [Unit Testing](automated-testing/unit-testing/readme.md)
 - [ ] Invite project advisors to design reviews and ask for feedback to the design decisions captured in documentation.
 - [ ] Identify all the reviews and acceptances that the customer's processes require and plan for them
 
-## Code Reviews
+## Code reviews
 
 - [ ] Get a clear agreement in the team as to function of code reviews.
 - [ ] Establish a code review checklist or established process.
@@ -100,7 +100,7 @@ More details on [Code Reviews](code-reviews/README.md)
 
 More details on [Retrospectives](agile-development/retrospectives/readme.md)
 
-## Engineering Feedback
+## Engineering feedback
 
 - [ ] Register business- and technical blockers that prevent project success
 - [ ] Add suggestions for improvements to leveraged services and components
