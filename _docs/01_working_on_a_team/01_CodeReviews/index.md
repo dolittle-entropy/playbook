@@ -17,9 +17,9 @@ Developers working on **Dolittle** projects will conduct peer code reviews on ev
 
 ## Evidence and measures
 
-Many of these items can be automated or enforced by policy in modern version control and work item tracking systems. Verification of the policies on the master branch in VSTS, for example, may be sufficient evidence that a project team is conducting code reviews.
+Many of these items can be automated or enforced by policy in modern version control and work item tracking systems. Verification of the policies on the main branch in VSTS, for example, may be sufficient evidence that a project team is conducting code reviews.
 
--   [ ] The master branches in all repositories have branch policies defined in line with the general guidance below.
+-   [ ] The main branches in all repositories have branch policies defined in line with the general guidance below.
 -   [ ] All builds produced out of project repositories include appropriate linters, run unit tests, and complete with neither errors nor warnings.
 -   [ ] Every bug work item should include a link to the pull request that introduced it, once the error has been diagnosed. This is meant to support learning, not assigning blame.
 -   [ ] Each bug work item should include a note on how the bug might (or might not have) been caught in a code review.
@@ -39,9 +39,9 @@ The goal of code reviews is to identify and remove defects before they can be in
 
 The following guidelines are framed prescriptively in terms of git, but apply equally to other version control and code review environments. Pull request is used as the generic term for a request to commit code to a shared branch.
 
--   Code review policies should be enforced on the master branch.
-    -   Git should be configured to deny commits directly to master, enforcing that all changes are made through topic branch PRs.
-        -   For github the following branch protection settings should be enabled for master:
+-   Code review policies should be enforced on the main branch.
+    -   Git should be configured to deny commits directly to main, enforcing that all changes are made through topic branch PRs.
+        -   For github the following branch protection settings should be enabled for main branch:
             -   Protect this branch
             -   Require pull request reviews before merging
             -   Require status checks to pass before merging
