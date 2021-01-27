@@ -10,11 +10,11 @@ There are many different options when working with Source Control. In CD we use 
 
 ## Goals
 * Following industry best practice to work in geo-distributed teams which encourage contributions from all across CD as well as the broader OSS community
-* Improve code quality by enforcing reviews before merging into master branches
+* Improve code quality by enforcing reviews before merging into main branches
 * Improve traceability of features and fixes through a clean commit history
 
 ## Evidence and measures
-- [ ] The master branches are locked and merges are done through PRs which follow the guidelines outlined in the Code Reviews section
+- [ ] The main branches are locked and merges are done through PRs which follow the guidelines outlined in the Code Reviews section
 - [ ] The commit history is consistent and the commit messages provide useful information about the WHAT and WHY (instead of the HOW) of the change.
 - [ ] All public repositories follow the OSS guidelines highlighted below
 - [ ] No secrets are published or part of the public commit history
