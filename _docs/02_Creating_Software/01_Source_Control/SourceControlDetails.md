@@ -37,37 +37,37 @@ Agree if you want a linear or non-linear commit history. There are pros and cons
 *  Con linear: [Why you should stop using Git rebase](https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1)
 
 ## Approach for non-linear commit history
-Merging `topic` into `master`
+Merging `topic` into `main`
 ```
   A---B---C topic
  /         \
-D---E---F---G---H master
+D---E---F---G---H main
 
 git fetch origin
-git checkout master
+git checkout main
 git merge topic
 ```
 ## Two approaches to achieve a linear commit history
-### Rebase topic branch before merging into master
-Before merging `topic` into `master`, we rebase `topic` with the   :
+### Rebase topic branch before merging into main
+Before merging `topic` into `main`, we rebase `topic` with the   :
 ```
           A---B---C topic
          /         \
-D---E---F-----------G---H master
+D---E---F-----------G---H main
 
 git fetch origin
-git rebase master topic
-git checkout master
+git rebase main topic
+git checkout main
 git merge topic
 ```
-### Rebase topic branch before squash merge into master
-[Squash merging](https://docs.microsoft.com/en-us/vsts/git/merging-with-squash?view=vsts) is a merge option that allows you to condense the Git history of topic branches when you complete a pull request. Instead of each commit on `topic` being added to the history of `master`, a squash merge takes all the file changes and adds them to a single new commit on `master`.
+### Rebase topic branch before squash merge into main
+[Squash merging](https://docs.microsoft.com/en-us/vsts/git/merging-with-squash?view=vsts) is a merge option that allows you to condense the Git history of topic branches when you complete a pull request. Instead of each commit on `topic` being added to the history of `main`, a squash merge takes all the file changes and adds them to a single new commit on `main`.
 ```
           A---B---C topic
          /
-D---E---F-----------G---H master
+D---E---F-----------G---H main
 
-Create a PR topic --> master in VSTS and approve using the squash merge option
+Create a PR topic --> main in VSTS and approve using the squash merge option
 ```
 
 # Write good commit messages
@@ -185,13 +185,13 @@ Submodules can be very useful in more complex deployment and/or development scen
 
 Adding a submodule to your repo
 ```
-git submodule add -b master <your_submodule>
+git submodule add -b main <your_submodule>
 ```
 Initialize and pull a repo with submodules:
 ```
 git submodule init
 git submodule update --init --remote
-git submodule foreach git checkout master
+git submodule foreach git checkout main
 git submodule foreach git pull origin
 ```
 
